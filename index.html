@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="The home page for a student in the WDD 231 Class at BYUI.">
+    <meta name="author" content="Merrill Hansen">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/footer.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/incognito.svg" alt="Site Logo">
+        <span>Q's Corner</span>
+        <button id="ham-btn" class="hamburger"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Final</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <div class="cards">
+        <section class="info-card">
+            <h2>About Me</h2>
+            <p>I am an amateur programmer from Utah who doesn't like posting hi-res photos of myself online. I've done all sorts of odd jobs but my current work is in technical support and customer service. Lorem ipsum dolor sit amet consectetur adipisicing elit. In, autem id ad tempore libero culpa, facere ducimus beatae a sit incidunt perferendis. Consectetur nobis autem ratione voluptas consequatur quo officiis!</p>
+        </section>
+        <section class="info-card">
+            <h2>Student Photo</h2>
+            <img src="images/profile.jpg" alt="A low res photo of me">
+        </section>
+        <section class="course-card">
+            <h2>Web Certification Courses</h2>
+            <div class="course-buttons">
+            <button id="all-courses">All Courses</button>
+            <button id="wdd-courses">WDD Courses</button>
+            <button id="cse-courses">CSE Courses</button>
+            </div>
+            <p id="credits"></p>
+            <ul class="course-list" id="course-list">
+            </ul>
+        </section>
+        </div>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
+            <a href="https://github.com/mhan-ctrl" target="_blank"><img src="images/github.svg" alt="github" width="16" height="16"></a>
+            <a href="https://www.linkedin.com/feed/" target="_blank"><img src="images/linkedin.svg" alt="linkedin" width="16" height="16"></a>
+            <a href="https://www.reddit.com" target="_blank"><img src="images/reddit.svg" alt="reddit" width="16" height="16"></a>
+        </div>
+        <p>©<span id="currentyear"></span> | Merrill Hansen | Utah</p>
+        <p id="lastmodified"></p>
+    </footer>
+</body>
+</html>
+
+<!-- This is a comment -->
