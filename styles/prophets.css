@@ -1,0 +1,61 @@
+/* Color Scheme
+#173D32 - Forest green
+#263B39 - Deep slate
+#E9EDE9 - Soft grey
+#FFFFFF - White
+#C49A62 - Muted gold
+#315B4B · Lighter forest
+*/
+
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #173d32;
+    color: #c49a62;
+}
+
+main {
+    background-color: #e9ede9;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+    justify-content: center;
+    gap: 1rem;
+    padding: 10px;
+}
+
+section {
+    width: 100%;
+    max-width: 22rem;
+    padding: 2px;
+    justify-content: center;
+    text-align: center;
+    white-space: pre-line;
+    background-color: #263b39;
+    color: #fff;
+    border-radius: 5px;
+}
+
+section img {
+    width: 75%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #173d32;
+    color: #c49a62;
+}
