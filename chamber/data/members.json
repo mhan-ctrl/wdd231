@@ -1,58 +1,60 @@
-[
-    {
-        "name": "Evergreen Solutions",
-        "address": "142 Pine Street",
-        "phone": "555-222-3535",
-        "website": "www.evergreensolutions.example",
-        "image": "https://mhan-ctrl.github.io/wdd231/chamber/images/everGreen.webp",
-        "membership": 2
-    },
-    {
-        "name": "Copperline Hardware",
-        "address": "85 Foundry Avenue",
-        "phone": "555-314-2781",
-        "website": "www.copperline.example",
-        "image": "https://mhan-ctrl.github.io/wdd231/chamber/images/copperLine.webp",
-        "membership": 1
-    },
-    {
-        "name": "Bluebird Consulting",
-        "address": "210 Meadow Lane",
-        "phone": "555-425-1936",
-        "website": "www.bluebirdconsulting.example",
-        "image": "https://mhan-ctrl.github.io/wdd231/chamber/images/blueBird.webp",
-        "membership": 3
-    },
-    {
-        "name": "Summit Ridge Logistics",
-        "address": "673 Mountain View Road",
-        "phone": "555-536-4820",
-        "website": "www.summitridge.example",
-        "image": "https://mhan-ctrl.github.io/wdd231/chamber/images/summitRidge.webp",
-        "membership": 2
-    },
-    {
-        "name": "Hearthstone Interiors",
-        "address": "44 Willow Boulevard",
-        "phone": "555-647-2913",
-        "website": "www.hearthstone.example",
-        "image": "https://mhan-ctrl.github.io/wdd231/chamber/images/hearthStone.webp",
-        "membership": 1
-    },
-    {
-        "name": "Silverleaf Financial",
-        "address": "318 Oakwood Drive",
-        "phone": "555-758-1642",
-        "website": "www.silverleaf.example",
-        "image": "https://mhan-ctrl.github.io/wdd231/chamber/images/silverLeaf.webp",
-        "membership": 3
-    },
-    {
-        "name": "Redstone Creative",
-        "address": "927 Market Street",
-        "phone": "555-869-3054",
-        "website": "www.redstonecreative.example",
-        "image": "https://mhan-ctrl.github.io/wdd231/chamber/images/redStone.webp",
-        "membership": 2
-    }
-]
+{
+    "businesses": [
+        {
+            "name": "Evergreen Solutions",
+            "address": "142 Pine Street",
+            "phone": "555-222-3535",
+            "website": "www.evergreensolutions.example",
+            "image": "https://mhan-ctrl.github.io/wdd231/chamber/images/everGreen.webp",
+            "membership": 2
+        },
+        {
+            "name": "Copperline Hardware",
+            "address": "85 Foundry Avenue",
+            "phone": "555-314-2781",
+            "website": "www.copperline.example",
+            "image": "https://mhan-ctrl.github.io/wdd231/chamber/images/copperLine.webp",
+            "membership": 1
+        },
+        {
+            "name": "Bluebird Consulting",
+            "address": "210 Meadow Lane",
+            "phone": "555-425-1936",
+            "website": "www.bluebirdconsulting.example",
+            "image": "https://mhan-ctrl.github.io/wdd231/chamber/images/blueBird.webp",
+            "membership": 3
+        },
+        {
+            "name": "Summit Ridge Logistics",
+            "address": "673 Mountain View Road",
+            "phone": "555-536-4820",
+            "website": "www.summitridge.example",
+            "image": "https://mhan-ctrl.github.io/wdd231/chamber/images/summitRidge.webp",
+            "membership": 2
+        },
+        {
+            "name": "Hearthstone Interiors",
+            "address": "44 Willow Boulevard",
+            "phone": "555-647-2913",
+            "website": "www.hearthstone.example",
+            "image": "https://mhan-ctrl.github.io/wdd231/chamber/images/hearthStone.webp",
+            "membership": 1
+        },
+        {
+            "name": "Silverleaf Financial",
+            "address": "318 Oakwood Drive",
+            "phone": "555-758-1642",
+            "website": "www.silverleaf.example",
+            "image": "https://mhan-ctrl.github.io/wdd231/chamber/images/silverLeaf.webp",
+            "membership": 3
+        },
+        {
+            "name": "Redstone Creative",
+            "address": "927 Market Street",
+            "phone": "555-869-3054",
+            "website": "www.redstonecreative.example",
+            "image": "https://mhan-ctrl.github.io/wdd231/chamber/images/redStone.webp",
+            "membership": 2
+        }
+    ]
+}
