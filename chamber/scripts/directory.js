@@ -16,7 +16,7 @@ async function getBusinessData() {
 getBusinessData();
 
 const displayBusiness = (businesses) => {
-    prophets.forEach(business => {
+    businesses.forEach(business => {
         const card = document.createElement('section');
         const name = document.createElement('h2');
         const contact = document.createElement('span');
