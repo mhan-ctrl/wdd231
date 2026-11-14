@@ -28,8 +28,8 @@ const displayBusiness = (businesses) => {
         logo.setAttribute('src', business.image);
         logo.setAttribute('alt', `Logo of ${business.name}`);
         logo.setAttribute('loading', 'lazy');
-        logo.setAttribute('width', '250');
-        logo.setAttribute('height', '250');
+        logo.setAttribute('width', '75');
+        logo.setAttribute('height', '75');
         card.appendChild(name);
         card.appendChild(contact);
         card.appendChild(logo);
