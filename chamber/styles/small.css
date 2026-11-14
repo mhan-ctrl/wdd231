@@ -102,6 +102,19 @@ header span {
 }
 
 /* Main */
+main {
+    background-color: #E9EDE9;
+}
+
+h1 {
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+}
+
+.view {
+    text-align: center;
+}
 
 /** grid **/
 .grid {
@@ -160,9 +173,16 @@ header span {
 
 /* Footer */
 footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: #173D32;
-    padding: 1rem 10px;
-    text-align: center;
+    padding: 1rem 50px;
+    text-align: left;
+    align-items: center;
+}
+
+h3 {
+    color: #E9EDE9;
 }
 
 footer p {
