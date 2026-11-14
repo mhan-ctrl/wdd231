@@ -25,11 +25,11 @@ const displayBusiness = (businesses) => {
         contact.textContent = `Address: ${business.address}
         Phone: ${business.phone}
         Website: ${business.website}`;
-        portrait.setAttribute('src', business.image);
-        portrait.setAttribute('alt', `Logo of ${business.name}`);
-        portrait.setAttribute('loading', 'lazy');
-        portrait.setAttribute('width', '250');
-        portrait.setAttribute('height', '250');
+        logo.setAttribute('src', business.image);
+        logo.setAttribute('alt', `Logo of ${business.name}`);
+        logo.setAttribute('loading', 'lazy');
+        logo.setAttribute('width', '250');
+        logo.setAttribute('height', '250');
         card.appendChild(name);
         card.appendChild(contact);
         card.appendChild(logo);
