@@ -7,7 +7,7 @@ async function getBusinessData() {
             throw new Error(`Request failed with status ${response.status}`);
         }
         const data = await response.json();
-        displayBusiness(data.business);
+        displayBusiness(data.businesses);
     } catch (error) {
         console.error(error);
     }
